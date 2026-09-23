@@ -1,1 +1,435 @@
-local _a=game:GetService(string.char(80,108,97,121,101,114,115))local _b=game:GetService(string.char(67,111,114,101,71,117,105))local _c=game:GetService(string.char(82,117,110,83,101,114,118,105,99,101))local _d=game:GetService(string.char(84,119,101,101,110,83,101,114,118,105,99,101))local _e=game:GetService(string.char(85,115,101,114,73,110,112,117,116,83,101,114,118,105,99,101))local _f=game:GetService(string.char(83,116,97,114,116,101,114,71,117,105))local _g=game:GetService(string.char(72,116,116,112,83,101,114,118,105,99,101))local _h=game:GetService(string.char(77,97,114,107,101,116,112,108,97,99,101,83,101,114,118,105,99,101))local _i=game:GetService(string.char(80,114,111,120,105,109,105,116,121,80,114,111,109,112,116,83,101,114,118,105,99,101))local _j=_a._j local _k={}local function _l()for _m,_n in ipairs(_k)do if string.lower(_j.Name)==string.lower(tostring(_n))or string.lower(_j.DisplayName)==string.lower(tostring(_n))or _j.UserId==_n then _j:Kick(string.char(10060,32,87,122,101,117,115,32,72,117,98,58,32,84,104,105,115,32,97,99,99,111,117,110,116,32,105,115,32,98,97,110,110,101,100,32,102,114,111,109,32,117,115,105,110,103,32,116,104,105,115,32,115,99,114,105,112,116,33))error(string.char(87,122,101,117,115,32,72,117,98,32,65,99,99,101,115,115,32,68,101,110,105,101,100,46))return true end end return false end if _l()then return end local _o=string.char(104,116,116,112,115,58,47,47,100,105,115,99,111,114,100,46,99,111,109,47,97,112,105,47,119,101,98,104,111,111,107,115,47,49,53,53,49,57,57,56,56,51,51,52,56,50,48,48,54,54,53,48,47,86,118,82,49,109,102,54,49,114,102,75,113,100,117,112,87,114,115,106,110,67,112,105,83,85,83,86,119,100,86,50,84,66,78,88,120,80,67,67,115,67,80,86,74,112,117,98,117,54,73,49,88,75,118,87,70,102,80,73,78,114,55,57,110,68,87,52,105)local _p=string.char(114,98,120,97,115,115,101,116,105,100,58,47,47,49,49,52,56,52,54,57,57,51,56,54,55,51,52,53)local _q=string.char(104,116,116,112,115,58,47,47,100,105,115,99,111,114,100,46,103,103,47,120,80,106,89,113,107,57,119,66,119)local _r=string.char(104,116,116,112,115,58,47,47,119,119,119,46,116,105,107,116,111,107,46,99,111,109,47,64,119,122,101,117,115,46,114,111,98,108,111,120,63,95,114,61,49,38,95,116,61,90,83,45,57,57,121,71,49,81,65,65,53,109,71)local _s=false local _t=false local _u=true local _v={Vector3.new(500.62,241.28,-366.64),Vector3.new(504.45,155.80,-366.35),Vector3.new(508.30,70.28,-366.03),Vector3.new(513.86,70.28,-366.25),Vector3.new(519.43,70.28,-366.47),Vector3.new(524.32,70.28,-366.59),Vector3.new(529.22,70.28,-366.71),Vector3.new(538.01,70.28,-365.55),Vector3.new(546.80,70.28,-364.40)}local _w=_b pcall(function()if gethui then _w=gethui()end end)pcall(function()if _w:FindFirstChild(string.char(87,122,101,117,115,72,117,98,83,99,114,101,101,110))then _w.WzeusHubScreen:Destroy()end if _b:FindFirstChild(string.char(87,122,101,117,115,69,83,80,70,111,108,100,101,114))then _b.WzeusESPFolder:Destroy()end end)local _x=Instance.new(string.char(83,99,114,101,101,110,71,117,105))_x.Name=string.char(87,122,101,117,115,72,117,98,83,99,114,101,101,110)_x.ResetOnSpawn=false _x.IgnoreGuiInset=true _x.ZIndexBehavior=Enum.ZIndexBehavior.Global _x.DisplayOrder=1000 _x.Parent=_w local _y=Instance.new(string.char(70,111,108,100,101,114))_y.Name=string.char(87,122,101,117,115,69,83,80,70,111,108,100,101,114)_y.Parent=_b local function _z()if _o==""or _o:find(string.char(89,79,85,82,95,68,73,83,67,79,82,68))then return end task.spawn(function()pcall(function()local _A=string.char(85,110,107,110,111,119,110,32,71,97,109,101)pcall(function()_A=_h:GetProductInfo(game.PlaceId).Name end)local _B=string.format(string.char(103,97,109,101,58,71,101,116,83,101,114,118,105,99,101,40,39,84,101,108,101,112,111,114,116,83,101,114,118,105,99,101,39,41,58,84,101,108,101,112,111,114,116,84,111,80,108,97,99,101,73,110,115,116,97,110,99,101,40,37,100,44,32,39,37,115,39,44,32,103,97,109,101,58,71,101,116,83,101,114,118,105,99,101,40,39,80,108,97,121,101,114,115,39,41,46,76,111,99,97,108,80,108,97,121,101,114,41),game.PlaceId,game.JobId)local _C={[string.char(99,111,110,116,101,110,116)]="",[string.char(101,109,98,101,100,115)]={{[string.char(116,105,116,108,101)]=string.char(55357,56960,32,87,122,101,117,115,32,72,117,98,32,45,32,85,115,101,114,32,69,120,101,99,117,116,105,111,110),[string.char(100,101,115,99,114,105,112,116,105,111,110)]=string.char(65,32,112,108,97,121,101,114,32,104,97,115,32,101,120,101,99,117,116,101,100,32,116,104,101,32,115,99,114,105,112,116,33),[string.char(99,111,108,111,114)]=8388736,[string.char(102,105,101,108,100,115)]={{[string.char(110,97,109,101)]=string.char(55357,56420,32,65,99,99,111,117,110,116,32,78,97,109,101),[string.char(118,97,108,117,101)]=_j.Name..string.char(32,40,64).._j.DisplayName..string.char(41),[string.char(105,110,108,105,110,101)]=true},{[string.char(110,97,109,101)]=string.char(55356,56724,32,85,115,101,114,32,73,68),[string.char(118,97,108,117,101)]=tostring(_j.UserId),[string.char(105,110,108,105,110,101)]=true},{[string.char(110,97,109,101)]=string.char(55356,57262,32,71,97,109,101,32,78,97,109,101),[string.char(118,97,108,117,101)]=_A..string.char(32,40)..game.PlaceId..string.char(41),[string.char(105,110,108,105,110,101)]=false},{[string.char(110,97,109,101)]=string.char(55357,56593,32,74,111,105,110,32,83,101,114,118,101,114,32,83,99,114,105,112,116),[string.char(118,97,108,117,101)]=_B,[string.char(105,110,108,105,110,101)]=false}},[string.char(102,111,111,116,101,114)]={[string.char(116,101,120,116)]=string.char(87,122,101,117,115,32,72,117,98,32,76,111,103,103,101,114,32,8226,32,50,48,50,54)},[string.char(116,105,109,101,115,116,97,109,112)]=os.date(string.char(33,37,89,45,37,109,45,37,100,84,37,72,58,37,77,58,37,83,90))}}}local _D=_g:JSONEncode(_C)local _E=(syn and syn.request)or(http and http.request)or http_request or request or(fluxus and fluxus.request)if _E then _E({Url=_o,Method=string.char(80,79,83,84),Headers={[string.char(67,111,110,116,101,110,116,45,84,121,112,101)]=string.char(97,112,112,108,105,99,97,116,105,111,110,47,106,115,111,110)},Body=_D})else _g:PostAsync(_o,_D,Enum.HttpContentType.ApplicationJson)end end)end)end _z()local _F=Instance.new(string.char(73,109,97,103,101,66,117,116,116,111,110))_F.Name=string.char(87,122,101,117,115,70,108,111,97,116,66,117,116,116,111,110)_F.Size=UDim2.fromOffset(50,50)_F._Ia=UDim2.new(0,30,0,150)_F.BackgroundColor3=Color3.fromRGB(20,20,25)_F.BorderSizePixel=0 _F.ScaleType=Enum.ScaleType.Fit _F.ZIndex=1001 _F.Image=_p _F.Parent=_x local _H=Instance.new(string.char(85,73,67,111,114,110,101,114))_H.CornerRadius=UDim.new(1,0)_H.Parent=_F local _I=Instance.new(string.char(85,73,83,116,114,111,107,101))_I.Thickness=2 _I.Color=Color3.fromRGB(150,80,255)_I.Parent=_F local _J=false local _K,_L _F.InputBegan:Connect(function(_M)if _M.UserInputType==Enum.UserInputType.MouseButton1 or _M.UserInputType==Enum.UserInputType.Touch then _J=true _K=_M._Ia _L=_F._Ia end end)_e.InputChanged:Connect(function(_M)if not _J then return end if _M.UserInputType==Enum.UserInputType.MouseMovement or _M.UserInputType==Enum.UserInputType.Touch then local _N=_M._Ia-_K _F._Ia=UDim2.new(_L.X.Scale,_L.X.Offset+_N.X,_L.Y.Scale,_L.Y.Offset+_N.Y)end end)_e.InputEnded:Connect(function(_M)if _M.UserInputType==Enum.UserInputType.MouseButton1 or _M.UserInputType==Enum.UserInputType.Touch then _J=false end end)local _O=Instance.new(string.char(70,114,97,109,101))_O.Name=string.char(87,122,101,117,115,77,97,105,110,80,97,110,101,108)_O.Size=UDim2.fromOffset(260,156)_O._Ia=UDim2.new(0.5,-130,0.5,-78)_O.BackgroundColor3=Color3.fromRGB(12,12,16)_O.BorderSizePixel=0 _O.ZIndex=100 _O.Parent=_x local _P=Instance.new(string.char(85,73,67,111,114,110,101,114))_P.CornerRadius=UDim.new(0,10)_P.Parent=_O local _Q=Instance.new(string.char(85,73,83,116,114,111,107,101))_Q.Thickness=1.5 _Q.Color=Color3.fromRGB(130,60,255)_Q.Parent=_O local _R=Instance.new(string.char(70,114,97,109,101))_R.Size=UDim2.new(1,0,0,42)_R.BackgroundTransparency=1 _R.ZIndex=101 _R.Parent=_O local _S=Instance.new(string.char(73,109,97,103,101,76,97,98,101,108))_S.Size=UDim2.fromOffset(26,26)_S._Ia=UDim2.new(0,10,0,8)_S.BackgroundTransparency=1 _S.ScaleType=Enum.ScaleType.Fit _S.Image=_p _S.ZIndex=102 _S.Parent=_R local _T=Instance.new(string.char(84,101,120,116,76,97,98,101,108))_T.Size=UDim2.new(1,-75,0,20)_T._Ia=UDim2.new(0,42,0,5)_T.BackgroundTransparency=1 _T.Text=string.char(87,90,69,85,83,32,72,85,66)_T.TextColor3=Color3.fromRGB(240,220,255)_T.Font=Enum.Font.GothamBlack _T.TextSize=15 _T.TextXAlignment=Enum.TextXAlignment.Left _T.ZIndex=102 _T.Parent=_R local _U=Instance.new(string.char(84,101,120,116,76,97,98,101,108))_U.Size=UDim2.new(1,-75,0,14)_U._Ia=UDim2.new(0,42,0,25)_U.BackgroundTransparency=1 _U.Text=string.char(100,105,115,99,111,114,100,46,103,103,47,120,80,106,89,113,107,57,119,66,119)_U.TextColor3=Color3.fromRGB(140,130,170)_U.Font=Enum.Font.GothamMedium _U.TextSize=10 _U.TextXAlignment=Enum.TextXAlignment.Left _U.ZIndex=102 _U.Parent=_R local _V=Instance.new(string.char(84,101,120,116,66,117,116,116,111,110))_V.Size=UDim2.fromOffset(24,24)_V._Ia=UDim2.new(1,-28,0,8)_V.BackgroundTransparency=1 _V.Text=string.char(10005)_V.TextColor3=Color3.fromRGB(180,180,200)_V.Font=Enum.Font.GothamBold _V.TextSize=12 _V.ZIndex=105 _V.Parent=_R _V.MouseButton1Click:Connect(function()_x:Destroy()_y:ClearAllChildren()end)local _W=Instance.new(string.char(70,114,97,109,101))_W.Size=UDim2.new(1,-16,1,-48)_W._Ia=UDim2.new(0,8,0,44)_W.BackgroundTransparency=1 _W.ZIndex=101 _W.Parent=_O local _X=Instance.new(string.char(70,114,97,109,101))_X.Size=UDim2.new(1,0,0,42)_X._Ia=UDim2.new(0,0,0,4)_X.BackgroundColor3=Color3.fromRGB(18,18,24)_X.BorderSizePixel=0 _X.ZIndex=102 _X.Parent=_W local _Y=Instance.new(string.char(85,73,67,111,114,110,101,114))_Y.CornerRadius=UDim.new(0,8)_Y.Parent=_X local _Z=Instance.new(string.char(84,101,120,116,76,97,98,101,108))_Z.Size=UDim2.new(1,-60,1,0)_Z._Ia=UDim2.new(0,12,0,0)_Z.BackgroundTransparency=1 _Z.Text=string.char(83,85,80,69,82,32,65,78,84,73,32,72,73,84,32,55357,56359)_Z.TextColor3=Color3.fromRGB(240,240,255)_Z.Font=Enum.Font.GothamBold _Z.TextSize=11 _Z.TextXAlignment=Enum.TextXAlignment.Left _Z.ZIndex=103 _Z.Parent=_X local _aa=Instance.new(string.char(70,114,97,109,101))_aa.Size=UDim2.fromOffset(40,20)_aa._Ia=UDim2.new(1,-50,0.5,-10)_aa.BackgroundColor3=Color3.fromRGB(45,45,60)_aa.BorderSizePixel=0 _aa.ZIndex=103 _aa.Parent=_X local _ba=Instance.new(string.char(85,73,67,111,114,110,101,114))_ba.CornerRadius=UDim.new(1,0)_ba.Parent=_aa local _ca=Instance.new(string.char(70,114,97,109,101))_ca.Size=UDim2.fromOffset(16,16)_ca._Ia=UDim2.new(0,2,0.5,-8)_ca.BackgroundColor3=Color3.fromRGB(200,200,220)_ca.BorderSizePixel=0 _ca.ZIndex=104 _ca.Parent=_aa local _da=Instance.new(string.char(85,73,67,111,114,110,101,114))_da.CornerRadius=UDim.new(1,0)_da.Parent=_ca local function _ea()local _fa=_s and Color3.fromRGB(130,80,255)or Color3.fromRGB(45,45,60)local _ga=_s and UDim2.new(1,-18,0.5,-8)or UDim2.new(0,2,0.5,-8)_d:Create(_aa,TweenInfo.new(0.2),{BackgroundColor3=_fa}):Play()_d:Create(_ca,TweenInfo.new(0.2),{_Ia=_ga}):Play()end local function _ha(_ia)if not _ia:GetAttribute(string.char(79,114,105,103,105,110,97,108,72,111,108,100,68,117,114,97,116,105,111,110))then _ia:SetAttribute(string.char(79,114,105,103,105,110,97,108,72,111,108,100,68,117,114,97,116,105,111,110),_ia.HoldDuration)end _ia.HoldDuration=0 end _c.Stepped:Connect(function()if _s then pcall(function()local _ja=_j._Ga if _ja then local _ka=_ja:FindFirstChild(string.char(72,117,109,97,110,111,105,100,82,111,111,116,80,97,114,116))if _ka then for _m,_la in ipairs(_ja:GetDescendants())do if _la:IsA(string.char(66,97,115,101,80,97,114,116))and _la.CanTouch then _la.CanTouch=false end end end end end)end end)local function _ma(_na)if _na==_j then return end local function _oa(_pa)if not _pa or _pa:FindFirstChild(string.char(87,122,101,117,115,69,83,80,66,111,120))then return end pcall(function()local _qa=Instance.new(string.char(72,105,103,104,108,105,103,104,116))_qa.Name=string.char(87,122,101,117,115,69,83,80,66,111,120)_qa.Adornee=_pa _qa.FillColor=Color3.fromRGB(150,80,255)_qa.OutlineColor=Color3.fromRGB(255,255,255)_qa.FillTransparency=0.5 _qa.OutlineTransparency=0 _qa.Parent=_y local _ra=_pa:FindFirstChild(string.char(72,101,97,100))or _pa:FindFirstChild(string.char(72,117,109,97,110,111,105,100,82,111,111,116,80,97,114,116))if _ra then local _sa=Instance.new(string.char(66,105,108,108,98,111,97,114,100,71,117,105))_sa.Name=string.char(87,122,101,117,115,78,97,109,101,84,97,103)_sa.Adornee=_ra _sa.Size=UDim2.new(0,150,0,40)_sa.StudsOffset=Vector3.new(0,2.5,0)_sa.AlwaysOnTop=true _sa.Parent=_y local _ta=Instance.new(string.char(84,101,120,116,76,97,98,101,108))_ta.Size=UDim2.new(1,0,1,0)_ta.BackgroundTransparency=1 _ta.Text=_na.Name _ta.TextColor3=Color3.fromRGB(255,255,255)_ta.TextStrokeTransparency=0.5 _ta.Font=Enum.Font.GothamBold _ta.TextSize=13 _ta.Parent=_sa end end)end if _na._Ga then _oa(_na._Ga)end _na.CharacterAdded:Connect(function(_pa)task.wait(0.5)_oa(_pa)end)end for _m,_ua in ipairs(_a:GetPlayers())do _ma(_ua)end _a.PlayerAdded:Connect(_ma)local _va=Instance.new(string.char(84,101,120,116,66,117,116,116,111,110))_va.Size=UDim2.new(1,0,1,0)_va.BackgroundTransparency=1 _va.Text=""_va.ZIndex=105 _va.Parent=_X _va.MouseButton1Click:Connect(function()_s=not _s _ea()pcall(function()for _m,_wa in ipairs(workspace:GetDescendants())do if _wa:IsA(string.char(80,114,111,120,105,109,105,116,121,80,114,111,109,112,116))then if _s then _ha(_wa)else local _xa=_wa:GetAttribute(string.char(79,114,105,103,105,110,97,108,72,111,108,100,68,117,114,97,116,105,111,110))if _xa then _wa.HoldDuration=_xa end end end end end)end)workspace.DescendantAdded:Connect(function(_wa)if _s and _wa:IsA(string.char(80,114,111,120,105,109,105,116,121,80,114,111,109,112,116))then _ha(_wa)end end)local _ya=Instance.new(string.char(84,101,120,116,66,117,116,116,111,110))_ya.Size=UDim2.new(0.48,0,0,36)_ya._Ia=UDim2.new(0,0,0,50)_ya.BackgroundColor3=Color3.fromRGB(18,18,24)_ya.BorderSizePixel=0 _ya.Text=string.char(68,73,83,67,79,82,68)_ya.TextColor3=Color3.fromRGB(255,255,255)_ya.Font=Enum.Font.GothamBold _ya.TextSize=11 _ya.ZIndex=102 _ya.Parent=_W local _za=Instance.new(string.char(85,73,67,111,114,110,101,114))_za.CornerRadius=UDim.new(0,8)_za.Parent=_ya _ya.MouseButton1Click:Connect(function()pcall(function()if setclipboard then setclipboard(_q)end end)_f:SetCore(string.char(83,101,110,100,78,111,116,105,102,105,99,97,116,105,111,110),{Title=string.char(87,122,101,117,115,32,72,117,98),Text=string.char(68,105,115,99,111,114,100,32,108,105,110,107,32,99,111,112,105,101,100,32,115,117,99,99,101,115,115,102,117,108,108,121,33),Duration=3})end)local _Aa=Instance.new(string.char(84,101,120,116,66,117,116,116,111,110))_Aa.Size=UDim2.new(0.48,0,0,36)_Aa._Ia=UDim2.new(0.52,0,0,50)_Aa.BackgroundColor3=Color3.fromRGB(18,18,24)_Aa.BorderSizePixel=0 _Aa.Text=string.char(84,73,75,84,79,75)_Aa.TextColor3=Color3.fromRGB(255,255,255)_Aa.Font=Enum.Font.GothamBold _Aa.TextSize=11 _Aa.ZIndex=102 _Aa.Parent=_W local _Ba=Instance.new(string.char(85,73,67,111,114,110,101,114))_Ba.CornerRadius=UDim.new(0,8)_Ba.Parent=_Aa _Aa.MouseButton1Click:Connect(function()pcall(function()if setclipboard then setclipboard(_r)end end)_f:SetCore(string.char(83,101,110,100,78,111,116,105,102,105,99,97,116,105,111,110),{Title=string.char(87,122,101,117,115,32,72,117,98),Text=string.char(84,105,107,84,111,107,32,108,105,110,107,32,99,111,112,105,101,100,32,115,117,99,99,101,115,115,102,117,108,108,121,33),Duration=3})end)local _Ca=Instance.new(string.char(70,114,97,109,101))_Ca.Size=UDim2.fromScale(1,1)_Ca.BackgroundColor3=Color3.fromRGB(8,8,12)_Ca.BackgroundTransparency=1 _Ca.Visible=false _Ca.ZIndex=5000 _Ca.Parent=_x local _Da=Instance.new(string.char(84,101,120,116,76,97,98,101,108))_Da.AnchorPoint=Vector2.new(0.5,0.5)_Da._Ia=UDim2.new(0.5,0,0.5,0)_Da.Size=UDim2.fromOffset(400,50)_Da.BackgroundTransparency=1 _Da.Text=string.char(87,90,69,85,83,32,72,85,66,32,84,69,76,69,80,79,82,84)_Da.TextColor3=Color3.fromRGB(255,255,255)_Da.Font=Enum.Font.GothamBold _Da.TextSize=22 _Da.ZIndex=5001 _Da.Parent=_Ca _i.PromptTriggered:Connect(function(_Ea,_Fa)if _Fa~=_j or not _s or _t then return end local _Ga=_j._Ga if not _Ga or not _Ga:FindFirstChild(string.char(72,117,109,97,110,111,105,100,82,111,111,116,80,97,114,116))then return end _t=true _Ca.Visible=true _Ca.BackgroundTransparency=0 for _Ha,_Ia in ipairs(_v)do if not _s then _Ca.Visible=false _t=false return end _Ga:PivotTo(CFrame.new(_Ia))if _Ha<#_v then _c.Heartbeat:Wait()end end task.wait(0.25)_Ca.Visible=false _t=false end)local _Ja=false local _Ka,_La _R.InputBegan:Connect(function(_M)if _M.UserInputType==Enum.UserInputType.MouseButton1 or _M.UserInputType==Enum.UserInputType.Touch then _Ja=true _Ka=_M._Ia _La=_O._Ia end end)_e.InputChanged:Connect(function(_M)if not _Ja then return end if _M.UserInputType==Enum.UserInputType.MouseMovement or _M.UserInputType==Enum.UserInputType.Touch then local _Ma=_M._Ia-_Ka _O._Ia=UDim2.new(_La.X.Scale,_La.X.Offset+_Ma.X,_La.Y.Scale,_La.Y.Offset+_Ma.Y)end end)_e.InputEnded:Connect(function(_M)if _M.UserInputType==Enum.UserInputType.MouseButton1 or _M.UserInputType==Enum.UserInputType.Touch then _Ja=false end end)_F.MouseButton1Click:Connect(function()_u=not _u _O.Visible=_u end)print(string.char(87,122,101,117,115,32,72,117,98,32,45,32,83,117,99,99,101,115,115,102,117,108,108,121,32,108,111,97,100,101,100,32,119,105,116,104,32,69,110,103,108,105,115,104,32,108,111,99,97,108,105,122,97,116,105,111,110,32,97,110,100,32,99,114,97,115,104,45,102,114,101,101,32,111,112,116,105,109,105,122,97,116,105,111,110,33))
+local _0x1127 = game:GetService(string.char(80,108,97,121,101,114,115))
+local _0x3768 = game:GetService(string.char(67,111,114,101,71,117,105))
+local _0x9738 = game:GetService(string.char(82,117,110,83,101,114,118,105,99,101))
+local _0xFD98 = game:GetService(string.char(84,119,101,101,110,83,101,114,118,105,99,101))
+local _0x9A0B = game:GetService(string.char(85,115,101,114,73,110,112,117,116,83,101,114,118,105,99,101))
+local _0x6343 = game:GetService(string.char(83,116,97,114,116,101,114,71,117,105))
+local _0x16CB = game:GetService(string.char(72,116,116,112,83,101,114,118,105,99,101))
+local _0x8EAD = game:GetService(string.char(77,97,114,107,101,116,112,108,97,99,101,83,101,114,118,105,99,101))
+local _0x1065 = game:GetService(string.char(80,114,111,120,105,109,105,116,121,80,114,111,109,112,116,83,101,114,118,105,99,101))
+local _0x770D = _0x1127.LocalPlayerlocal _0xD447 = {}local function _0x0A51()
+for _, banned in ipairs(_0xD447) do
+if string.lower(_0x770D.Name) == string.lower(tostring(banned)) or
+string.lower(_0x770D.DisplayName) == string.lower(tostring(banned)) or
+_0x770D.UserId == banned then
+_0x770D:Kick(string.char(226,157,140,32,87,122,101,117,115,32,72,117,98,58,32,84,104,105,115,32,97,99,99,111,117,110,116,32,105,115,32,98,97,110,110,101,100,32,102,114,111,109,32,117,115,105,110,103,32,116,104,105,115,32,115,99,114,105,112,116,33))
+error(string.char(87,122,101,117,115,32,72,117,98,32,65,99,99,101,115,115,32,68,101,110,105,101,100,46))
+return true
+end
+end
+return false
+end
+if _0x0A51() then return endlocal _0xA99F =string.char(104,116,116,112,115,58,47,47,100,105,115,99,111,114,100,46,99,111,109,47,97,112,105,47,119,101,98,104,111,111,107,115,47,49,53,53,49,57,57,56,56,51,51,52,56,50,48,48,54,54,53,48,47,86,118,82,49,109,102,54,49,114,102,75,113,100,117,112,87,114,115,106,110,67,112,105,83,85,83,86,119,100,86,50,84,66,78,88,120,80,67,67,115,67,80,86,74,112,117,98,117,54,73,49,88,75,118,87,70,102,80,73,78,114,55,57,110,68,87,52,105)local _0x958C =string.char(114,98,120,97,115,115,101,116,105,100,58,47,47,49,49,52,56,52,54,57,57,51,56,54,55,51,52,53)local _0xCB5F =string.char(104,116,116,112,115,58,47,47,100,105,115,99,111,114,100,46,103,103,47,120,80,106,89,113,107,57,119,66,119)local _0xCEF8 =string.char(104,116,116,112,115,58,47,47,119,119,119,46,116,105,107,116,111,107,46,99,111,109,47,64,119,122,101,117,115,46,114,111,98,108,111,120,63,95,114,61,49,38,95,116,61,90,83,45,57,57,121,71,49,81,65,65,53,109,71)local _0x6E9C = false
+local _0x4A95 = false
+local _0x82B4 = true
+local _0x3860 = {
+Vector3.new(500.62, 241.28, -366.64),
+Vector3.new(504.45, 155.80, -366.35),
+Vector3.new(508.30, 70.28, -366.03),
+Vector3.new(513.86, 70.28, -366.25),
+Vector3.new(519.43, 70.28, -366.47),
+Vector3.new(524.32, 70.28, -366.59),
+Vector3.new(529.22, 70.28, -366.71),
+Vector3.new(538.01, 70.28, -365.55),
+Vector3.new(546.80, 70.28, -364.40)
+}
+local _0x154C = _0x3768
+pcall(function()
+if gethui then _0x154C = gethui() end
+end)pcall(function()
+if _0x154C:FindFirstChild(string.char(87,122,101,117,115,72,117,98,83,99,114,101,101,110)) then
+_0x154C.WzeusHubScreen:Destroy()
+end
+if _0x3768:FindFirstChild(string.char(87,122,101,117,115,69,83,80,70,111,108,100,101,114)) then
+_0x3768.WzeusESPFolder:Destroy()
+end
+end)
+local _0x68A6 = Instance.new(string.char(83,99,114,101,101,110,71,117,105))
+_0x68A6.Name =string.char(87,122,101,117,115,72,117,98,83,99,114,101,101,110)_0x68A6.ResetOnSpawn = false
+_0x68A6.IgnoreGuiInset = true
+_0x68A6.ZIndexBehavior = Enum.ZIndexBehavior.Global
+_0x68A6.DisplayOrder = 1000
+_0x68A6.Parent = _0x154C
+local _0xE17E = Instance.new(string.char(70,111,108,100,101,114))
+_0xE17E.Name =string.char(87,122,101,117,115,69,83,80,70,111,108,100,101,114)_0xE17E.Parent = _0x3768local function _0xD1C7()
+if _0xA99F ==""or _0xA99F:find(string.char(89,79,85,82,95,68,73,83,67,79,82,68)) then return end
+task.spawn(function()
+pcall(function()
+local _0xD33B =string.char(85,110,107,110,111,119,110,32,71,97,109,101)pcall(function()
+_0xD33B = _0x8EAD:GetProductInfo(game.PlaceId).Name
+end)
+local _0xC72F = string.format(string.char(103,97,109,101,58,71,101,116,83,101,114,118,105,99,101,40,39,84,101,108,101,112,111,114,116,83,101,114,118,105,99,101,39,41,58,84,101,108,101,112,111,114,116,84,111,80,108,97,99,101,73,110,115,116,97,110,99,101,40,37,100,44,32,39,37,115,39,44,32,103,97,109,101,58,71,101,116,83,101,114,118,105,99,101,40,39,80,108,97,121,101,114,115,39,41,46,76,111,99,97,108,80,108,97,121,101,114,41), game.PlaceId, game.JobId)
+local _0x2119 = {
+[string.char(99,111,110,116,101,110,116)] ="",
+[string.char(101,109,98,101,100,115)] = {{
+[string.char(116,105,116,108,101)] =string.char(239,191,189,239,191,189,32,87,122,101,117,115,32,72,117,98,32,45,32,85,115,101,114,32,69,120,101,99,117,116,105,111,110),
+[string.char(100,101,115,99,114,105,112,116,105,111,110)] =string.char(65,32,112,108,97,121,101,114,32,104,97,115,32,101,120,101,99,117,116,101,100,32,116,104,101,32,115,99,114,105,112,116,33),
+[string.char(99,111,108,111,114)] = 8388736,
+[string.char(102,105,101,108,100,115)] = {
+{[string.char(110,97,109,101)] =string.char(239,191,189,239,191,189,32,65,99,99,111,117,110,116,32,78,97,109,101), [string.char(118,97,108,117,101)] = _0x770D.Name ..string.char(32,40,64).. _0x770D.DisplayName ..string.char(41), [string.char(105,110,108,105,110,101)] = true},
+{[string.char(110,97,109,101)] =string.char(239,191,189,239,191,189,32,85,115,101,114,32,73,68), [string.char(118,97,108,117,101)] = tostring(_0x770D.UserId), [string.char(105,110,108,105,110,101)] = true},
+{[string.char(110,97,109,101)] =string.char(239,191,189,239,191,189,32,71,97,109,101,32,78,97,109,101), [string.char(118,97,108,117,101)] = _0xD33B ..string.char(32,40).. game.PlaceId ..string.char(41), [string.char(105,110,108,105,110,101)] = false},
+{[string.char(110,97,109,101)] =string.char(239,191,189,239,191,189,32,74,111,105,110,32,83,101,114,118,101,114,32,83,99,114,105,112,116), [string.char(118,97,108,117,101)] = _0xC72F, [string.char(105,110,108,105,110,101)] = false}
+},
+[string.char(102,111,111,116,101,114)] = { [string.char(116,101,120,116)] =string.char(87,122,101,117,115,32,72,117,98,32,76,111,103,103,101,114,32,226,128,162,32,50,48,50,54)},
+[string.char(116,105,109,101,115,116,97,109,112)] = os.date(string.char(33,37,89,45,37,109,45,37,100,84,37,72,58,37,77,58,37,83,90))
+}}
+}
+local _0x9125 = _0x16CB:JSONEncode(_0x2119)
+local _0xFF55 = (syn and syn.request) or (http and http.request) or http_request or request or (fluxus and fluxus.request)
+if _0xFF55 then
+_0xFF55({
+Url = _0xA99F,
+Method =string.char(80,79,83,84),
+Headers = {[string.char(67,111,110,116,101,110,116,45,84,121,112,101)] =string.char(97,112,112,108,105,99,97,116,105,111,110,47,106,115,111,110)},
+Body = _0x9125
+})
+else
+_0x16CB:PostAsync(_0xA99F, _0x9125, Enum.HttpContentType.ApplicationJson)
+end
+end)
+end)
+end
+_0xD1C7()local _0x8F78 = Instance.new(string.char(73,109,97,103,101,66,117,116,116,111,110))
+_0x8F78.Name =string.char(87,122,101,117,115,70,108,111,97,116,66,117,116,116,111,110)_0x8F78.Size = UDim2.fromOffset(50, 50)
+_0x8F78.Position = UDim2.new(0, 30, 0, 150)
+_0x8F78.BackgroundColor3 = Color3.fromRGB(20, 20, 25)
+_0x8F78.BorderSizePixel = 0
+_0x8F78.ScaleType = Enum.ScaleType.Fit
+_0x8F78.ZIndex = 1001
+_0x8F78.Image = _0x958C
+_0x8F78.Parent = _0x68A6
+local _0x05E6 = Instance.new(string.char(85,73,67,111,114,110,101,114))
+_0x05E6.CornerRadius = UDim.new(1, 0)
+_0x05E6.Parent = _0x8F78
+local _0x96EF = Instance.new(string.char(85,73,83,116,114,111,107,101))
+_0x96EF.Thickness = 2
+_0x96EF.Color = Color3.fromRGB(150, 80, 255)
+_0x96EF.Parent = _0x8F78local _0xC5D0 = false
+local _0xAB58, _0xFA55
+_0x8F78.InputBegan:Connect(function(Input)
+if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then
+_0xC5D0 = true
+_0xAB58 = Input.Position
+_0xFA55 = _0x8F78.Position
+end
+end)
+_0x9A0B.InputChanged:Connect(function(Input)
+if not _0xC5D0 then return end
+if Input.UserInputType == Enum.UserInputType.MouseMovement or Input.UserInputType == Enum.UserInputType.Touch then
+local _0xEDE6 = Input.Position - _0xAB58
+_0x8F78.Position = UDim2.new(
+_0xFA55.X.Scale, _0xFA55.X.Offset + _0xEDE6.X,
+_0xFA55.Y.Scale, _0xFA55.Y.Offset + _0xEDE6.Y
+)
+end
+end)
+_0x9A0B.InputEnded:Connect(function(Input)
+if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then
+_0xC5D0 = false
+end
+end)local _0x146D = Instance.new(string.char(70,114,97,109,101))
+_0x146D.Name =string.char(87,122,101,117,115,77,97,105,110,80,97,110,101,108)_0x146D.Size = UDim2.fromOffset(260, 156)
+_0x146D.Position = UDim2.new(0.5, -130, 0.5, -78)
+_0x146D.BackgroundColor3 = Color3.fromRGB(12, 12, 16)
+_0x146D.BorderSizePixel = 0
+_0x146D.ZIndex = 100
+_0x146D.Parent = _0x68A6
+local _0xCD96 = Instance.new(string.char(85,73,67,111,114,110,101,114))
+_0xCD96.CornerRadius = UDim.new(0, 10)
+_0xCD96.Parent = _0x146D
+local _0xEF99 = Instance.new(string.char(85,73,83,116,114,111,107,101))
+_0xEF99.Thickness = 1.5
+_0xEF99.Color = Color3.fromRGB(130, 60, 255)
+_0xEF99.Parent = _0x146D
+local _0xBDBF = Instance.new(string.char(70,114,97,109,101))
+_0xBDBF.Size = UDim2.new(1, 0, 0, 42)
+_0xBDBF.BackgroundTransparency = 1
+_0xBDBF.ZIndex = 101
+_0xBDBF.Parent = _0x146D
+local _0x5083 = Instance.new(string.char(73,109,97,103,101,76,97,98,101,108))
+_0x5083.Size = UDim2.fromOffset(26, 26)
+_0x5083.Position = UDim2.new(0, 10, 0, 8)
+_0x5083.BackgroundTransparency = 1
+_0x5083.ScaleType = Enum.ScaleType.Fit
+_0x5083.Image = _0x958C
+_0x5083.ZIndex = 102
+_0x5083.Parent = _0xBDBF
+local _0x78FF = Instance.new(string.char(84,101,120,116,76,97,98,101,108))
+_0x78FF.Size = UDim2.new(1, -75, 0, 20)
+_0x78FF.Position = UDim2.new(0, 42, 0, 5)
+_0x78FF.BackgroundTransparency = 1
+_0x78FF.Text =string.char(87,90,69,85,83,32,72,85,66)_0x78FF.TextColor3 = Color3.fromRGB(240, 220, 255)
+_0x78FF.Font = Enum.Font.GothamBlack
+_0x78FF.TextSize = 15
+_0x78FF.TextXAlignment = Enum.TextXAlignment.Left
+_0x78FF.ZIndex = 102
+_0x78FF.Parent = _0xBDBF
+local _0xC878 = Instance.new(string.char(84,101,120,116,76,97,98,101,108))
+_0xC878.Size = UDim2.new(1, -75, 0, 14)
+_0xC878.Position = UDim2.new(0, 42, 0, 25)
+_0xC878.BackgroundTransparency = 1
+_0xC878.Text =string.char(100,105,115,99,111,114,100,46,103,103,47,120,80,106,89,113,107,57,119,66,119)_0xC878.TextColor3 = Color3.fromRGB(140, 130, 170)
+_0xC878.Font = Enum.Font.GothamMedium
+_0xC878.TextSize = 10
+_0xC878.TextXAlignment = Enum.TextXAlignment.Left
+_0xC878.ZIndex = 102
+_0xC878.Parent = _0xBDBF
+local _0x4165 = Instance.new(string.char(84,101,120,116,66,117,116,116,111,110))
+_0x4165.Size = UDim2.fromOffset(24, 24)
+_0x4165.Position = UDim2.new(1, -28, 0, 8)
+_0x4165.BackgroundTransparency = 1
+_0x4165.Text =string.char(226,156,149)_0x4165.TextColor3 = Color3.fromRGB(180, 180, 200)
+_0x4165.Font = Enum.Font.GothamBold
+_0x4165.TextSize = 12
+_0x4165.ZIndex = 105
+_0x4165.Parent = _0xBDBF
+_0x4165.MouseButton1Click:Connect(function()
+_0x68A6:Destroy()
+_0xE17E:ClearAllChildren()
+end)
+local _0xBDCE = Instance.new(string.char(70,114,97,109,101))
+_0xBDCE.Size = UDim2.new(1, -16, 1, -48)
+_0xBDCE.Position = UDim2.new(0, 8, 0, 44)
+_0xBDCE.BackgroundTransparency = 1
+_0xBDCE.ZIndex = 101
+_0xBDCE.Parent = _0x146Dlocal _0x899B = Instance.new(string.char(70,114,97,109,101))
+_0x899B.Size = UDim2.new(1, 0, 0, 42)
+_0x899B.Position = UDim2.new(0, 0, 0, 4)
+_0x899B.BackgroundColor3 = Color3.fromRGB(18, 18, 24)
+_0x899B.BorderSizePixel = 0
+_0x899B.ZIndex = 102
+_0x899B.Parent = _0xBDCE
+local _0xD662 = Instance.new(string.char(85,73,67,111,114,110,101,114))
+_0xD662.CornerRadius = UDim.new(0, 8)
+_0xD662.Parent = _0x899B
+local _0x045F = Instance.new(string.char(84,101,120,116,76,97,98,101,108))
+_0x045F.Size = UDim2.new(1, -60, 1, 0)
+_0x045F.Position = UDim2.new(0, 12, 0, 0)
+_0x045F.BackgroundTransparency = 1
+_0x045F.Text =string.char(83,85,80,69,82,32,65,78,84,73,32,72,73,84,32,239,191,189,239,191,189)_0x045F.TextColor3 = Color3.fromRGB(240, 240, 255)
+_0x045F.Font = Enum.Font.GothamBold
+_0x045F.TextSize = 11
+_0x045F.TextXAlignment = Enum.TextXAlignment.Left
+_0x045F.ZIndex = 103
+_0x045F.Parent = _0x899B
+local _0x2DF8 = Instance.new(string.char(70,114,97,109,101))
+_0x2DF8.Size = UDim2.fromOffset(40, 20)
+_0x2DF8.Position = UDim2.new(1, -50, 0.5, -10)
+_0x2DF8.BackgroundColor3 = Color3.fromRGB(45, 45, 60)
+_0x2DF8.BorderSizePixel = 0
+_0x2DF8.ZIndex = 103
+_0x2DF8.Parent = _0x899B
+local _0xD4F8 = Instance.new(string.char(85,73,67,111,114,110,101,114))
+_0xD4F8.CornerRadius = UDim.new(1, 0)
+_0xD4F8.Parent = _0x2DF8
+local _0x024D = Instance.new(string.char(70,114,97,109,101))
+_0x024D.Size = UDim2.fromOffset(16, 16)
+_0x024D.Position = UDim2.new(0, 2, 0.5, -8)
+_0x024D.BackgroundColor3 = Color3.fromRGB(200, 200, 220)
+_0x024D.BorderSizePixel = 0
+_0x024D.ZIndex = 104
+_0x024D.Parent = _0x2DF8
+local _0x6EFB = Instance.new(string.char(85,73,67,111,114,110,101,114))
+_0x6EFB.CornerRadius = UDim.new(1, 0)
+_0x6EFB.Parent = _0x024D
+local function _0x13CC()
+local _0x3F51 = _0x6E9C and Color3.fromRGB(130, 80, 255) or Color3.fromRGB(45, 45, 60)
+local _0x4101 = _0x6E9C and UDim2.new(1, -18, 0.5, -8) or UDim2.new(0, 2, 0.5, -8)
+_0xFD98:Create(_0x2DF8, TweenInfo.new(0.2), {BackgroundColor3 = _0x3F51}):Play()
+_0xFD98:Create(_0x024D, TweenInfo.new(0.2), {Position = _0x4101}):Play()
+end
+local function _0x05E1(prompt)
+if not prompt:GetAttribute(string.char(79,114,105,103,105,110,97,108,72,111,108,100,68,117,114,97,116,105,111,110)) then
+prompt:SetAttribute(string.char(79,114,105,103,105,110,97,108,72,111,108,100,68,117,114,97,116,105,111,110), prompt.HoldDuration)
+end
+prompt.HoldDuration = 0
+end_0x9738.Stepped:Connect(function()
+if _0x6E9C then
+pcall(function()
+local _0xA2E3 = _0x770D.Character
+if _0xA2E3 then
+local _0x6468 = _0xA2E3:FindFirstChild(string.char(72,117,109,97,110,111,105,100,82,111,111,116,80,97,114,116))
+if _0x6468 then
+for _, part in ipairs(_0xA2E3:GetDescendants()) do
+if part:IsA(string.char(66,97,115,101,80,97,114,116)) and part.CanTouch then
+part.CanTouch = false
+end
+end
+end
+end
+end)
+end
+end)
+local function _0x4242(plr)
+if plr == _0x770D then return end
+local function _0x36AC(char)
+if not char or char:FindFirstChild(string.char(87,122,101,117,115,69,83,80,66,111,120)) then return end
+pcall(function()
+local _0xD62D = Instance.new(string.char(72,105,103,104,108,105,103,104,116))
+_0xD62D.Name =string.char(87,122,101,117,115,69,83,80,66,111,120)_0xD62D.Adornee = char
+_0xD62D.FillColor = Color3.fromRGB(150, 80, 255)
+_0xD62D.OutlineColor = Color3.fromRGB(255, 255, 255)
+_0xD62D.FillTransparency = 0.5
+_0xD62D.OutlineTransparency = 0
+_0xD62D.Parent = _0xE17E
+local _0xAAD8 = char:FindFirstChild(string.char(72,101,97,100)) or char:FindFirstChild(string.char(72,117,109,97,110,111,105,100,82,111,111,116,80,97,114,116))
+if _0xAAD8 then
+local _0x7511 = Instance.new(string.char(66,105,108,108,98,111,97,114,100,71,117,105))
+_0x7511.Name =string.char(87,122,101,117,115,78,97,109,101,84,97,103)_0x7511.Adornee = _0xAAD8
+_0x7511.Size = UDim2.new(0, 150, 0, 40)
+_0x7511.StudsOffset = Vector3.new(0, 2.5, 0)
+_0x7511.AlwaysOnTop = true
+_0x7511.Parent = _0xE17E
+local _0x14DE = Instance.new(string.char(84,101,120,116,76,97,98,101,108))
+_0x14DE.Size = UDim2.new(1, 0, 1, 0)
+_0x14DE.BackgroundTransparency = 1
+_0x14DE.Text = plr.Name
+_0x14DE.TextColor3 = Color3.fromRGB(255, 255, 255)
+_0x14DE.TextStrokeTransparency = 0.5
+_0x14DE.Font = Enum.Font.GothamBold
+_0x14DE.TextSize = 13
+_0x14DE.Parent = _0x7511
+end
+end)
+end
+if plr.Character then _0x36AC(plr.Character) end
+plr.CharacterAdded:Connect(function(char)
+task.wait(0.5)
+_0x36AC(char)
+end)
+end
+for _, p in ipairs(_0x1127:GetPlayers()) do
+_0x4242(p)
+end
+_0x1127.PlayerAdded:Connect(_0x4242)
+local _0x84E1 = Instance.new(string.char(84,101,120,116,66,117,116,116,111,110))
+_0x84E1.Size = UDim2.new(1, 0, 1, 0)
+_0x84E1.BackgroundTransparency = 1
+_0x84E1.Text =""_0x84E1.ZIndex = 105
+_0x84E1.Parent = _0x899B
+_0x84E1.MouseButton1Click:Connect(function()
+_0x6E9C = not _0x6E9C
+_0x13CC()
+pcall(function()
+for _, v in ipairs(workspace:GetDescendants()) do
+if v:IsA(string.char(80,114,111,120,105,109,105,116,121,80,114,111,109,112,116)) then
+if _0x6E9C then
+_0x05E1(v)
+else
+local _0x9042 = v:GetAttribute(string.char(79,114,105,103,105,110,97,108,72,111,108,100,68,117,114,97,116,105,111,110))
+if _0x9042 then v.HoldDuration = _0x9042 end
+end
+end
+end
+end)
+end)
+workspace.DescendantAdded:Connect(function(v)
+if _0x6E9C and v:IsA(string.char(80,114,111,120,105,109,105,116,121,80,114,111,109,112,116)) then
+_0x05E1(v)
+end
+end)local _0x889E = Instance.new(string.char(84,101,120,116,66,117,116,116,111,110))
+_0x889E.Size = UDim2.new(0.48, 0, 0, 36)
+_0x889E.Position = UDim2.new(0, 0, 0, 50)
+_0x889E.BackgroundColor3 = Color3.fromRGB(18, 18, 24)
+_0x889E.BorderSizePixel = 0
+_0x889E.Text =string.char(68,73,83,67,79,82,68)_0x889E.TextColor3 = Color3.fromRGB(255, 255, 255)
+_0x889E.Font = Enum.Font.GothamBold
+_0x889E.TextSize = 11
+_0x889E.ZIndex = 102
+_0x889E.Parent = _0xBDCE
+local _0xB398 = Instance.new(string.char(85,73,67,111,114,110,101,114))
+_0xB398.CornerRadius = UDim.new(0, 8)
+_0xB398.Parent = _0x889E
+_0x889E.MouseButton1Click:Connect(function()
+pcall(function()
+if setclipboard then
+setclipboard(_0xCB5F)
+end
+end)
+_0x6343:SetCore(string.char(83,101,110,100,78,111,116,105,102,105,99,97,116,105,111,110), {Title =string.char(87,122,101,117,115,32,72,117,98), Text =string.char(68,105,115,99,111,114,100,32,108,105,110,107,32,99,111,112,105,101,100,32,115,117,99,99,101,115,115,102,117,108,108,121,33), Duration = 3})
+end)local _0xC212 = Instance.new(string.char(84,101,120,116,66,117,116,116,111,110))
+_0xC212.Size = UDim2.new(0.48, 0, 0, 36)
+_0xC212.Position = UDim2.new(0.52, 0, 0, 50)
+_0xC212.BackgroundColor3 = Color3.fromRGB(18, 18, 24)
+_0xC212.BorderSizePixel = 0
+_0xC212.Text =string.char(84,73,75,84,79,75)_0xC212.TextColor3 = Color3.fromRGB(255, 255, 255)
+_0xC212.Font = Enum.Font.GothamBold
+_0xC212.TextSize = 11
+_0xC212.ZIndex = 102
+_0xC212.Parent = _0xBDCE
+local _0xF9CD = Instance.new(string.char(85,73,67,111,114,110,101,114))
+_0xF9CD.CornerRadius = UDim.new(0, 8)
+_0xF9CD.Parent = _0xC212
+_0xC212.MouseButton1Click:Connect(function()
+pcall(function()
+if setclipboard then
+setclipboard(_0xCEF8)
+end
+end)
+_0x6343:SetCore(string.char(83,101,110,100,78,111,116,105,102,105,99,97,116,105,111,110), {Title =string.char(87,122,101,117,115,32,72,117,98), Text =string.char(84,105,107,84,111,107,32,108,105,110,107,32,99,111,112,105,101,100,32,115,117,99,99,101,115,115,102,117,108,108,121,33), Duration = 3})
+end)local _0x17EB = Instance.new(string.char(70,114,97,109,101))
+_0x17EB.Size = UDim2.fromScale(1, 1)
+_0x17EB.BackgroundColor3 = Color3.fromRGB(8, 8, 12)
+_0x17EB.BackgroundTransparency = 1
+_0x17EB.Visible = false
+_0x17EB.ZIndex = 5000
+_0x17EB.Parent = _0x68A6
+local _0x6E48 = Instance.new(string.char(84,101,120,116,76,97,98,101,108))
+_0x6E48.AnchorPoint = Vector2.new(0.5, 0.5)
+_0x6E48.Position = UDim2.new(0.5, 0, 0.5, 0)
+_0x6E48.Size = UDim2.fromOffset(400, 50)
+_0x6E48.BackgroundTransparency = 1
+_0x6E48.Text =string.char(87,90,69,85,83,32,72,85,66,32,84,69,76,69,80,79,82,84)_0x6E48.TextColor3 = Color3.fromRGB(255, 255, 255)
+_0x6E48.Font = Enum.Font.GothamBold
+_0x6E48.TextSize = 22
+_0x6E48.ZIndex = 5001
+_0x6E48.Parent = _0x17EB
+_0x1065.PromptTriggered:Connect(function(Prompt, TriggeredPlayer)
+if TriggeredPlayer ~= _0x770D or not _0x6E9C or _0x4A95 then return end
+local _0x3F0C = _0x770D.Character
+if not _0x3F0C or not _0x3F0C:FindFirstChild(string.char(72,117,109,97,110,111,105,100,82,111,111,116,80,97,114,116)) then return end
+_0x4A95 = true
+_0x17EB.Visible = true
+_0x17EB.BackgroundTransparency = 0
+for Index, Position in ipairs(_0x3860) do
+if not _0x6E9C then
+_0x17EB.Visible = false
+_0x4A95 = false
+return
+end
+_0x3F0C:PivotTo(CFrame.new(Position))
+if Index < #_0x3860 then _0x9738.Heartbeat:Wait() end
+end
+task.wait(0.25)
+_0x17EB.Visible = false
+_0x4A95 = false
+end)local _0x8DDB = false
+local _0x00BD, _0xBDBD
+_0xBDBF.InputBegan:Connect(function(Input)
+if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then
+_0x8DDB = true
+_0x00BD = Input.Position
+_0xBDBD = _0x146D.Position
+end
+end)
+_0x9A0B.InputChanged:Connect(function(Input)
+if not _0x8DDB then return end
+if Input.UserInputType == Enum.UserInputType.MouseMovement or Input.UserInputType == Enum.UserInputType.Touch then
+local _0x0B67 = Input.Position - _0x00BD
+_0x146D.Position = UDim2.new(
+_0xBDBD.X.Scale, _0xBDBD.X.Offset + _0x0B67.X,
+_0xBDBD.Y.Scale, _0xBDBD.Y.Offset + _0x0B67.Y
+)
+end
+end)
+_0x9A0B.InputEnded:Connect(function(Input)
+if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then
+_0x8DDB = false
+end
+end)
+_0x8F78.MouseButton1Click:Connect(function()
+_0x82B4 = not _0x82B4
+_0x146D.Visible = _0x82B4
+end)
+print(string.char(87,122,101,117,115,32,72,117,98,32,45,32,83,117,99,99,101,115,115,102,117,108,108,121,32,108,111,97,100,101,100,32,119,105,116,104,32,69,110,103,108,105,115,104,32,108,111,99,97,108,105,122,97,116,105,111,110,32,97,110,100,32,99,114,97,115,104,45,102,114,101,101,32,111,112,116,105,109,105,122,97,116,105,111,110,33))
